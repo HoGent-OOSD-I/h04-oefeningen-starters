@@ -78,7 +78,7 @@ public class Gezinsuitgaven {
 			result += "12 ";
 		}
 
-		if (!result.equals(""))
+		if (!result.isEmpty())
 			System.out.printf("In de volgende maanden werd er meer " + "uitgegeven dan het gemiddelde: %s%n", result);
 		else
 			System.out.printf("Geen maanden gevonden waarin meer werd uitgegeven" + " dan het gemiddelde!%n");
